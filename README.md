@@ -12,3 +12,11 @@ A hands-on guide with a literary twist: How to host a business website on IBM Cl
 
 https://haephrati.medium.com/when-dostoyevskys-muse-and-a-rogue-nose-were-hosted-on-ibm-cloud-6893acdfd7a2
 
+## Unit tests
+
+`Tests/page_test.js` reads `index.html` and `style.css` and checks the `nav` landmark, page title, stylesheet link, and `.navItem` rules.
+
+```
+node Tests/page_test.js
+```
+
